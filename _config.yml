@@ -25,7 +25,7 @@ title: The Chinese Women Post
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: https://amy-cao.github.io/feministarchivechina.github.io # the base hostname & protocol for your site, NOTE: changing this would not change the actual url
+url: https://thechinesewomenpost.github.io # the base hostname & protocol for your site, NOTE: changing this would not change the actual url
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -33,6 +33,9 @@ github_username:  jekyll
 theme: minima # change to cayman for other themes
 plugins:
   - jekyll-feed
+  
+collections:
+  - 歧视
 
 # Exclude from processing.
 # The following items will not be processed, by default.
